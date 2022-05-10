@@ -1,1 +1,3 @@
 # RegressionPoker
+
+**Summary:** Previous poker bots often struggle with the massive state space of the game. We simplify the state space by treating the problem as a regression problem, instead of independent bets. By treating it as a regression task, we vastly simplify the state space and problem as a whole. Using this new formulation of the problem, we train a poker bot using self-play and experiential replay in the OpenAI Gym environment.1 
