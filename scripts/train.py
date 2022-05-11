@@ -16,7 +16,7 @@ def main():
         config.register_player(name="p1", algorithm=nn1)
         config.register_player(name="p1", algorithm=nn2)
         # config.register_player(name="p2", algorithm=HonestPlayer())
-        game_result = start_poker(config, verbose=0)
+        game_result = start_poker(config, verbose=1)
 
 if __name__ == "__main__":
     main()
